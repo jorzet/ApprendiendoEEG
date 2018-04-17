@@ -8,7 +8,7 @@ import android.os.PersistableBundle
  * jorzet.94@gmail.com
  */
 
-open class ContentActivity : BaseActivityLifecycle() {
+class ContentActivity : BaseActivityLifecycle() {
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)

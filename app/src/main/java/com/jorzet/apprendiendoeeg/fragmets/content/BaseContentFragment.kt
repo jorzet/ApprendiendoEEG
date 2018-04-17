@@ -8,6 +8,6 @@ import android.support.v4.app.Fragment
  * jorzet.94@gmail.com
  */
 
-class BaseContentFragment : Fragment() {
+open class BaseContentFragment : Fragment() {
 
 }
