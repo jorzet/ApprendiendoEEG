@@ -7,11 +7,11 @@ import com.jorzet.apprendiendoeeg.R
 import com.jorzet.apprendiendoeeg.security.AccessToken
 
 /**
- * Created by Jorge Zepeda Tinoco on 25/02/18.
+ * Created by Jorge Zepeda Tinoco on 17/04/2018.
  * jorzet.94@gmail.com
  */
 
-class Splash : BaseActivityLifecycle() {
+class SplashActivity : BaseActivityLifecycle() {
     val TIME_OUT : Long = 3000
 
     override fun onCreate(savedInstanceState: Bundle?) {

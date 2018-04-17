@@ -8,11 +8,19 @@
     <color name="colorTool">#FEFEFE</color>
     <color name="colorBackgrond">#FEFEFE</color>
 
-    <color name="white">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
     <color name="negro_semitransparente">#B2000000</color>
     <color name="blanco">#fafafa</color>
 
     <color name="orange">#FF9900</color>
     <color name="green">#009900</color>
     <color name="blue">#000099</color>
+    
+    <!--Sigin colors-->
+        <color name="signin_btn_color">#00A1E1</color>
+        <color name="signin_btn_register_color">#51CB55</color>
+        <color name="signin_text_other_color">#000000</color>
+        <color name="signin_facebook_login_color">#4266B2</color>
+    
 </resources>

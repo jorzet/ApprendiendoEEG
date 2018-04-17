@@ -10,12 +10,13 @@ import android.content.Context
 open class AccessToken {
 
     companion object Factory {
-
         val TOKEN_NAME_FILE: String = "com.eeg.pt1_v1.security.AccessToken"
         val TOKEN_NAME: String = "token_name"
 
         /**
-         *
+         *  @param context
+         *  @param token
+         *  this method save current token
          */
         fun setAccessToken(context : Context, token : String) {
             val editor = context.getSharedPreferences(AccessToken.TOKEN_NAME_FILE, Context.MODE_PRIVATE).edit();
@@ -24,7 +25,8 @@ open class AccessToken {
         }
 
         /**
-         *
+         *  @return formatted time string
+         *  this method return the current token saved
          */
         fun getCurrentAccessToken(context: Context): String {
             val prefs = context.getSharedPreferences(AccessToken.TOKEN_NAME_FILE, Context.MODE_PRIVATE);

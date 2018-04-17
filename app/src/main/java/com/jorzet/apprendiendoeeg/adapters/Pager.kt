@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentStatePagerAdapter
  * Created by Jorge Zepeda Tinoco on 25/02/18.
  * jorzet.94@gmail.com
  */
+
 class Pager(context : Context, fm : FragmentManager?, tabCount : Int) : FragmentStatePagerAdapter(fm) {
 
     private val mContext : Context? = context

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Signinin dimentions-->
+    <dimen name="signin_btn_dimen">250dp</dimen>
+    <dimen name="signin_btn_signup_dimen">250dp</dimen>
+    <dimen name="signin_btn_facebook_login_dimen">250dp</dimen>
+
+</resources>

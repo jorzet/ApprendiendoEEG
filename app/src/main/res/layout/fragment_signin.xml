@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_logo"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_user_inputs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/et_user_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signin_user_text"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/et_user_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_user_email"
+            android:hint="@string/signin_password_text"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_user_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_user_inputs"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_user_signin"
+            android:layout_width="@dimen/signin_btn_dimen"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_signin"
+            android:text="@string/signin_btn_text" />
+
+        <Button
+            android:id="@+id/btn_user_register"
+            android:layout_width="@dimen/signin_btn_signup_dimen"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_user_signin"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_signup"
+            android:text="@string/signin_btn_signup_text" />
+
+        <TextView
+            android:id="@+id/tv_other_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_user_register"
+            android:layout_marginTop="10dp"
+            android:text="@string/signin_other_text"
+            android:textColor="@color/signin_text_other_color" />
+
+        <Button
+            android:id="@+id/btn_facebook_login"
+            android:layout_width="@dimen/signin_btn_facebook_login_dimen"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_other_option"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_facebook_login"
+            android:text="@string/signin_facebook_login_text"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
